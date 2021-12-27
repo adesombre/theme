@@ -3,37 +3,57 @@ html , body {
     padding: 0;
     font-family: "Segoe Script";
 
-
 }
 .barre {
+
     font-weight: bold;
     font-size: 1.5rem;
 }
 h1 {
     font-size: 4rem;
 }
+
 .page{
 
 
 
 }
-.centre{
+.image {
 
-    text-align: center;
-    align-items: center;
 
-    height: 509px;
+    height: 1024px;
     font-weight: bold;
-    background-image: url("../image/concept-de-coiffure-retou.jpg") ;
+    background-image: url("../image/istockphoto-501653896-1024x1024.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-origin: border-box;
 }
+.centre{
+    display:inline-block;
+    color: maroon;
+   text-align: center;
+    vertical-align: middle;
+
+
+}
 .liste ul li {
     list-style-type: none;
+    font-size: 2rem;
+    color: maroon;
+
 }
 .liste ul {
     font-weight: bold;
+    color: white;
+}
+table thead th {
+    color: cornflowerblue;
+    font-size: 2rem;
+}
+table tbody td {
+    color: white;
+    font-size: 2rem;
+
 }
 
