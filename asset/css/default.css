@@ -1,3 +1,6 @@
+@import "responsive.css";
+
+
 html , body {
     margin: 0;
     padding: 0;
@@ -9,20 +12,20 @@ html , body {
     font-weight: bold;
     font-size: 1.5rem;
 }
+nav  li {
+   list-style-type: none;
+}
 h1 ,h2{
+    margin-top: 100px;
+    padding-top: 200px;
     font-size: 4rem;
-    font-weight: bold;
-    background-color: rgba(0,0,0,0.2);
+    font-weight: 400;
+    background-color: rgba(0,0,0,0.1);
+    color: darkorange;
 }
 
-.page{
 
-
-
-}
 .image {
-
-
     height: 1024px;
     font-weight: bold;
     background-image: url("../image/istockphoto-501653896-1024x1024.jpg");
@@ -30,38 +33,51 @@ h1 ,h2{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-origin: border-box;
+    width: 100vw;
 }
 .centre{
     display:inline-block;
     color: white;
    text-align: center;
-    vertical-align: middle;
+
+
 }
 p {
-    color:white;
-    font-size: 3rem;
-   background-color: rgba(0,0,0,0.2);
+    width: 800px;
+    color:palevioletred;
+    font-size: 2rem;
+   background-color: rgba(0,0,0,0.1);
+    margin: 0 auto;
 
 }
 .liste ul li {
     list-style-type: none;
     font-size: 2rem;
-    color: black;
+    color: slategrey;
     font-weight: bold;
+
 
 }
 .liste ul {
     font-weight: bold;
     color: white;
 }
+.liste h3{
+    color: black;
+    font-weight: 400;
+}
+
 table thead th {
     color: black;
     font-weight: bold;
     font-size: 2rem;
+
 }
+
+
 table tbody td {
-    color: white;
+
+    color: slategray;
     font-size: 2rem;
 
 }
-
