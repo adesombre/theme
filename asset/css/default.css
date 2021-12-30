@@ -9,8 +9,10 @@ html , body {
     font-weight: bold;
     font-size: 1.5rem;
 }
-h1 {
+h1 ,h2{
     font-size: 4rem;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.2);
 }
 
 .page{
@@ -31,16 +33,21 @@ h1 {
 }
 .centre{
     display:inline-block;
-    color: maroon;
+    color: white;
    text-align: center;
     vertical-align: middle;
-
+}
+p {
+    color:white;
+    font-size: 3rem;
+   background-color: rgba(0,0,0,0.2);
 
 }
 .liste ul li {
     list-style-type: none;
     font-size: 2rem;
-    color: maroon;
+    color: black;
+    font-weight: bold;
 
 }
 .liste ul {
@@ -48,7 +55,8 @@ h1 {
     color: white;
 }
 table thead th {
-    color: cornflowerblue;
+    color: black;
+    font-weight: bold;
     font-size: 2rem;
 }
 table tbody td {
